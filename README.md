@@ -2,24 +2,24 @@
 
 ## The Technical Assessment
 
-Ready to put your skills to the test and have some full-stack hacking fun? This assessment is like a day long solo sprint where you get to build a full stack application using the skills and technologies your company plans to use moving forward. Expect to reinforce concepts and techniques you are familiar with and also to learn some new content.
+Ready to put your skills to the test and have some full-stack hacking fun? This assessment is like a day-long, solo sprint where you get to build a full stack application using the same skills and technologies your company plans to use. You can expect to reinforce concepts and techniques you are familiar with while also learning some new content.
 
 ### Before Starting
 
 1. Confirm that all communication applications and tools are turned off, closed, and put away so that you can focus.
-2. Clone or download this repo. Do not push your work any time during this assessment until you are ready to turn it in.
+2. Clone or download this repo. **Do not push your work any time during this assessment until you are ready to turn it in.**
 
 ### Guidelines
 
-You must manage your time effectively during this assessment. This assessment will be evaluated as if it was a coding challenge given to you as part of a job application process. Not only will the functionality of your code be important, but also, the professionalism with which you write it. Consider the style and organization of your code. Make frequent commits with informative and consistent commit messages. Be professional and informative with your comments.
+You must manage your time effectively during this assessment. This assessment will be evaluated as if it was a coding challenge given to you as part of a job application process. Not only will the functionality of your code be important, the professionalism with which you write it will also be reviewed. Consider the style and organization of your code. Make frequent commits with informative and consistent commit messages. Be professional and informative with your comments.
 
 See [Getting Started](#getting-started) for a guide on how to get started with development in this repository.
 
 ### Available resources
 
-The ultimate goal of this assessment is to give you an opportunity to demonstrate your abilities as an engineer. Avoid anything that will obscure our ability and your ability to see your best efforts at work will undermine that goal.
+The ultimate goal of this assessment is to give you an opportunity to demonstrate your abilities as an engineer. Avoid anything that will obscure our ability to see your best efforts at work and anything that could undermine your ability to meet the goal.
 
-* You **may** only use official documentation of the outlines technical stack.
+* You **may** only use official documentation of the outlined technical stack.
 * You **may not** copy and paste from available online resources.
 
 ### Submitting Your Work
