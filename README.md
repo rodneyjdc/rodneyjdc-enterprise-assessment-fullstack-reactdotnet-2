@@ -2,7 +2,7 @@
 
 ## The Technical Assessment
 
-Ready to put your skills to the test and have some full-stack hacking fun? This assessment is like a day-long, solo sprint where you get to build a full stack application using the same skills and technologies your company plans to use. You can expect to reinforce concepts and techniques you are familiar with while also learning some new content.
+Are you ready to put your skills to the test and have some full-stack hacking fun? This assessment is like a day-long, solo sprint where you get to build a full stack application using the same skills and technologies your company plans to use. You can expect to reinforce concepts and techniques you are familiar with while also learning some new content.
 
 ### Before Starting
 
@@ -36,7 +36,7 @@ Your work will be submitted through the [Learn website](https://learn-2.galvaniz
 
 ### Prerequisites
 
-In order to make it beyond step four, you need to have Docker installed - if you already have both `node` and `dotnet` installed, please wait to install Docker until you reach a step that requires it.
+In order to make it beyond step four, you need to have Docker installed. If you already have both `node` and `dotnet` installed, please wait to install Docker until you reach a step that requires it.
 
 #### Docker
 
@@ -107,6 +107,8 @@ You will create a full-stack application that implements several features for a 
 
 Each of your user stories will have a checklist of acceptance criteria after the story and any graphical renderings.
 
+IMPORTANT NOTE: This assessment *contains more work than you will be able to complete in a day* by design. Do not be concerned about completing all of the steps below. Rather, **please work on the following steps ***in order***, moving on to the next step only after the one you are working on is complete. **Commit frequently** with informative messages. While there are instructions to commit at the end of each step, these should not be your only commits.
+
 ### Your Tech Stack
 
 * Client: [React](https://reactjs.org/)
@@ -117,8 +119,6 @@ Each of your user stories will have a checklist of acceptance criteria after the
     * [Axios](https://github.com/axios/axios), as an optional, promise-based alternative to  jQuery's `$.ajax`
   * [Moment.js](https://momentjs.com/) for reader-friendly date formatting
   * [Place Corgi](http://placecorgi.com/) or [Unsplash Source](https://source.unsplash.com/) for placeholder images
-
-By design, this assessment *contains more work than you will be able to complete in a day*, so don't be concerned about not completing all of the steps below. Rather, please work on the following steps **in order**, moving on to the next step only after the one you are working on is complete. **Commit frequently** with informative messages. While there are instructions to commit at the end of each step, these should not be your only commits.
 
 ---
 
