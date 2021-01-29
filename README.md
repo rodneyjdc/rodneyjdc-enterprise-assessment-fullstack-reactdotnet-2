@@ -7,7 +7,7 @@ Are you ready to put your skills to the test and have some full-stack hacking fu
 ### Before Starting
 
 1. Confirm that all communication applications and tools are turned off, closed, and put away so that you can focus.
-2. Clone or download this repo. **Do not push your work any time during this assessment until you are ready to turn it in.**
+2. Fork this repo. **Do not push your work any time during this assessment until you are ready to turn it in.**
 
 ### Guidelines
 
@@ -31,6 +31,7 @@ Your work will be submitted through the [Learn website](https://learn-2.galvaniz
 3. Commit the changes to `closing_comments.txt` and `README.md`.
    * NOTE: This commit should only contain changes to these two files - no other changes are allowed
 4. Push your code to your fork of this repository
+5. Paste a link to your fork in the answer to the Learn assessment
 
 ## Running the Application
 
