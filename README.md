@@ -124,21 +124,21 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 ### Before You Begin
 
-**Complete these setup tasks** before you begin
+Complete these setup tasks before you begin:
 
 * [ ] In your terminal, navigate to this assessment's directory and run `git remote rm origin` to prevent yourself from accidentally pushing your code during the assessment.
-* [ ] Follow the steps in [Getting Started](#getting-started) if you haven't already.
+* [ ] Follow the steps in [Getting Started](#getting-started) if you have not done so already.
 * [ ] Start both the ui and server of your application.
-* [ ] Study the given codebase before beginning the steps below. Consider what's been provided to you, what you'll need to refactor, and what you'll need to create as you work through the steps below.
+* [ ] Study the given codebase before beginning the steps below. Consider what has been provided to you, what you will need to refactor, and what you will need to create as you work through the steps below.
 
-**WHEN THESE TASKS ARE COMPLETE:** proceed to Step One.
+**WHEN ALL OF THESE TASKS ARE COMPLETE:** plase proceed to Step One.
 
 ---
 
 ### Step One: The Blog Feed View
 
 **Implement the following user story:**
-> As a reader, when I load the app, I expect to see a feed (or, list) of all the blog posts.
+> As a reader, when I load the app, I expect to see a feed (or list) of all the blog posts.
 
 ![part one][one]
 
@@ -167,7 +167,7 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 * [ ] Study the comments explaining the workings of the "view switcher" in your client-side framework's `App` component.
   * **DO NOT** attempt to replace the view switcher React Router
-* [ ] Refactor your client-side `Feed` component so that when a user clicks on either on the title or thumbnail image of a blog post, they are shown the entire blog post. *Note: there are many ways to achieve this - it's a good idea to take a little bit of time to carefully plan.*
+* [ ] Refactor your client-side `Feed` component so that when a user clicks on either on the title or thumbnail image of a blog post, they are shown the entire blog post. *Note: there are many ways to achieve this - it is a good idea to take a little bit of time to carefully plan.*
 * [ ] Refactor the [**Post** component](./ui/src/components/Post.js) to render one blog post.
   * You may create or refactor other components as necessary.
   * You may create any new server-side routes as necessary.
@@ -178,7 +178,7 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 ---
 
-### Step Three: The Admin View, and Tracking Views on our Blog Post
+### Step Three: The Admin View and Tracking Views on our Blog Post
 
 **Implement the following user stories:**
 > As a blog administrator, I want to know how many times each story has been viewed.
@@ -192,7 +192,7 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
   * Use `route parameters` to get the `blogId` out of your request URL.
 * [ ] Refactor your `Post` component in such a way that every time it is rendered, an AJAX `PATCH` request is made to the server route you have just created.
 * [ ] Create a new `Admin` component, which will render a list of blog posts showing. Each item in the list should display the blog post's *title, author, and `views` count*.
-  * To aid you in crafting the structure, styling, and layout of the HTML elements in this component, we've provided an HTML "skeleton" for this component. You can find it at `mockups/Admin.html`.
+  * To aid you in crafting the structure, styling, and layout of the HTML elements in this component, we have provided an HTML "skeleton" for this component. You can find it at `mockups/Admin.html`.
   * You may create or refactor other components as necessary.
 * [ ] In the `App` component for your client, refactor the view switcher in such a way that setting the value of `view` will cause your new `Admin` component to be rendered.
 * [ ] Refactor the navigation section of the `App` to allow the user to navigate to the `Admin` view by clicking "Admin" in the nav bar at the top of the app.
@@ -210,8 +210,8 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 * [ ] Use [Docker Compose](https://docs.docker.com/compose/) to configure and start each of your services.
   * Docker Compose is included in Docker Desktop - if you have Docker Desktop installed, you should be able to use compose without any problem
-  * If you don't have Docker installed, you can download it [here](https://docs.docker.com/engine/install/)
-  * If you don't have Compose installed, you can download it [here](https://docs.docker.com/compose/install/)
+  * If you do not have Docker installed, you can download it [here](https://docs.docker.com/engine/install/)
+  * If you do not have Compose installed, you can download it [here](https://docs.docker.com/compose/install/)
 * [ ] Connect your server container to your database container
 * [ ] Refactor all existing routes to consume data from the database rather than the in-memory cache that was used previously.
 
@@ -228,12 +228,12 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 **Implement this user story by doing the following:**
 
-* [ ] Create a new `Create` component, which will display a form with several inputs: one input each for the _title, author, and imageUrl_ of the post, a `textarea` for the _body_ of the post, and a `button` that will submit the post. Additionally, the `Create` component will display a preview of the blog post, which you'll implement in the next step.
-  * To aid you in crafting the structure, styling, and layout of the HTML elements in this component, we've provided an HTML "skeleton" for this component. You can find it at `mockups/Create.html`.
+* [ ] Create a new `Create` component, which will display a form with several inputs: one input each for the _title, author, and imageUrl_ of the post, a `textarea` for the _body_ of the post, and a `button` that will submit the post. Additionally, the `Create` component will display a preview of the blog post, which you will implement in the next step.
+  * To aid you in crafting the structure, styling, and layout of the HTML elements in this component, we have provided an HTML "skeleton" for this component. You can find it at `mockups/Create.html`.
 * [ ] In your server, create a request handler that will respond to a `PUT` request to the route `/api/blogs/`. Your request handler should take the data sent in the body of the request, and use that data to create and save a new blog post to your in-memory "cache".
 * [ ] In the `App` component for your client, refactor the view switcher in such a way that setting the value of `view` will cause your new `Create` component to be rendered.
 * [ ] Refactor the navigation section of the `App` to allow the user to navigate to the `Create` view by clicking "Write a Post" in the nav bar at the top of the app.
-  * **NOTE** - You may use the [Place Corgi](http://placecorgi.com/) or [Unsplash Source](https://source.unsplash.com/) services to provide filler images as you implement this component. Don't waste time trying to find images.
+  * **NOTE** - You may use the [Place Corgi](http://placecorgi.com/) or [Unsplash Source](https://source.unsplash.com/) services to provide filler images as you implement this component. Do not waste your time trying to find images.
 
 **WHEN THIS STEP IS COMPLETE:** please make a commit with the message "complete step five"
 
@@ -246,7 +246,7 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 **Implement this user story by doing the following:**
 
-* [ ] Inside `utils/markdownParser.js` in your client directory, write a module that implements a basic Markdown parser. This module should export a function that accepts a string of Markdown-formatted text, and returns that same text but converted into HTML formatting.
+* [ ] Inside `utils/markdownParser.js` in your client directory, write a module that implements a basic Markdown parser. This module should export a function that accepts a string of Markdown-formatted text and returns that same text but converted into HTML formatting.
   * **DO NOT** use or reference the docs/source code for any existing Markdown Parsing module.
   * For the purpose of this assignment, please only implement these three Markdown features:
     * **bold text** - text wrapped a set of asterisks, like this: `this text is normal, *this text should be bold*, and finally this text is normal again`
@@ -260,7 +260,7 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 ---
 
-### Step Seven: Improving the `Create` View: Live Preview
+### Step Seven: Improving the `Create` View - Live Preview
 
 **Implement the following user story:**
 >As a blog author, I want to see a formatted preview of my blog post as I type it.
@@ -309,7 +309,7 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 ---
 
-### Step Ten: Improving the `Feed` View: Featured Posts
+### Step Ten: Improving the `Feed` View - Featured Posts
 
 **Implement the following user stories:**
 > As a reader, I expect more important stories to take up more space in the blog feed.
@@ -323,7 +323,7 @@ IMPORTANT NOTE: This assessment *contains more work than you will be able to com
 
 ---
 
-### Step Eleven: Improving the `Admin` View: Sortable/Filterable Table
+### Step Eleven: Improving the `Admin` View - Sortable/Filterable Table
 
 **Implement the following user stories:**
 > As an admin, I want to see metrics about my posts in a table that can be sorted and filtered.
