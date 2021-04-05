@@ -3,6 +3,8 @@ import React from "react";
 import Post from "./components/Post";
 import Feed from "./components/Feed";
 
+import Blog from './components/Blog';
+
 /*
   READ THESE COMMENTS AS A PART OF STEP TWO
 
@@ -30,18 +32,21 @@ import Feed from "./components/Feed";
 */
 
 class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    console.log(this.props);
     this.state = {
-      view: "feed",
+      view: this.props.view,
+      data: this.props.view
     };
 
     this.changeView = this.changeView.bind(this);
   }
 
-  changeView(option) {
+  changeView(option, props) {
     this.setState({
       view: option,
+      data: props,
     });
   }
 
@@ -49,13 +54,18 @@ class App extends React.Component {
     const { view } = this.state;
 
     if (view === "feed") {
-      return <Feed handleClick={() => this.changeView("anypostview")} />;
-    } else {
-      return <Post />;
+      return <Feed handleClick={this.changeView} />;
+    }
+    else {
+      return <Post data={this.state.data}/>;
     }
   }
   render() {
+    console.log("this.state", this.state);
+    console.log("this.state.view", this.state.view);
+    console.log("this.state.data", this.state.data);
     return (
+      <>
       <div>
         <div className="nav">
           <span className="logo" onClick={() => this.changeView("feed")}>
@@ -75,6 +85,7 @@ class App extends React.Component {
 
         <div className="main">{this.renderView()}</div>
       </div>
+      </>
     );
   }
 }
