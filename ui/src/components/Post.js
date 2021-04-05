@@ -1,6 +1,7 @@
 import React from 'react';
+import moment from 'moment';
 
-const Post = (props) => (
+function Post(props) {
   // <div className="post">
   //   <h1 className="post-title">This is a Hardcoded Blog Post Component</h1>
   //   <div className="post-byline"><span className="post-byline-author">Ferd Zerding</span> 14 hours ago</div>
@@ -11,12 +12,15 @@ const Post = (props) => (
   //   <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
   // </div>
 
-  <div className="post">
-    <h1 className="post-title">{props.data.title}</h1>
-    <div className="post-byline"><span className="post-byline-author">{props.data.author}</span> 14 hours ago</div>
-    <img src={props.data.imageUrl} className="post-image" />
-    <p>{props.data.body}</p>
-  </div>
-)
+  const createdAt = props.data.createdAt;
+    return (
+      <div className="post" >
+        <h1 className="post-title">{props.data.title}</h1>
+        <div className="post-byline"><span className="post-byline-author">{props.data.author}</span> {moment(createdAt).fromNow()}</div>
+        <img src={props.data.imageUrl} className="post-image" />
+        <p>{props.data.body}</p>
+      </div>
+    )
+}
 
 export default Post;

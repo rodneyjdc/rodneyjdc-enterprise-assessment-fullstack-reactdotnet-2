@@ -3,10 +3,9 @@ import samplePosts from '../sampleData';
 import Post from './Post';
 
 const Feed = (props) => (
-  samplePosts.map(post => 
-    <Post data={post}/>)
+  samplePosts.map(post => <Post data={post}/>)
 
-    
+
   // <div className="feed">
   //   <ul>
   //     <li className="feed-list-item">
