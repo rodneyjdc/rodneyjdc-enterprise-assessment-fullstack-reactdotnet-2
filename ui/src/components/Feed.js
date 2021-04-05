@@ -54,7 +54,7 @@ class Feed extends Component {
   render() {
     return (
       <>
-        {this.state.blogs.map(blog => <Post data={blog}/>)}
+        {this.state.blogs.sort((a, b) => a.createdAt - b.createdAt).map(blog => <Post data={blog}/>)}
       </>
     )
   }
