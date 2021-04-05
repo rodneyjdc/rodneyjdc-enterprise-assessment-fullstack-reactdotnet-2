@@ -1,10 +1,11 @@
 import React from 'react';
 import samplePosts from '../sampleData';
 import Post from './Post';
+import {Component} from 'react';
+import axios from 'axios';
 
-const Feed = (props) => (
-  samplePosts.map(post => <Post data={post}/>)
-
+// const Feed = (props) => (
+//   samplePosts.map(post => <Post data={post}/>)
 
   // <div className="feed">
   //   <ul>
@@ -34,6 +35,29 @@ const Feed = (props) => (
   //     </li>
   //   </ul>
   // </div>
-);
+// );
+
+class Feed extends Component {
+  state = {
+    blogs: []
+  }
+
+  componentDidMount() {
+    axios.get(`https://127.0.0.1:5000/api/blogs`)
+      .then(result => {
+        this.setState({ 
+          blogs: result.data
+         });
+      })
+  }
+
+  render() {
+    return (
+      <>
+        {this.state.blogs.map(blog => <Post data={blog}/>)}
+      </>
+    )
+  }
+}
 
 export default Feed;
