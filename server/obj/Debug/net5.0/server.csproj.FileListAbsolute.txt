@@ -113,3 +113,32 @@
 /app/obj/Debug/net5.0/ref/server.dll
 /app/obj/Debug/net5.0/server.pdb
 /app/obj/Debug/net5.0/server.genruntimeconfig.cache
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\appsettings.json
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\server.exe
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\server.deps.json
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\server.runtimeconfig.json
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\server.runtimeconfig.dev.json
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\server.dll
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\ref\server.dll
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\server.pdb
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.csprojAssemblyReference.cache
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.AssemblyInfoInputs.cache
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.AssemblyInfo.cs
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.csproj.CoreCompileInputs.cache
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\staticwebassets\server.StaticWebAssets.Manifest.cache
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\staticwebassets\server.StaticWebAssets.xml
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\scopedcss\bundle\server.styles.css
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.RazorTargetAssemblyInfo.cache
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.csproj.CopyComplete
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.dll
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\ref\server.dll
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.pdb
+C:\Users\Rodney\Desktop\LTI Resources\training projects\course-checkpoints-assessments\enterprise-assessment-fullstack-reactdotnet-second\server\obj\Debug\net5.0\server.genruntimeconfig.cache
